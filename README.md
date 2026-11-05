@@ -230,6 +230,5 @@ public class Main {
     }
 }
 ```
-#   J a v a _ D e v e l o p e r _ H o m e W o r k _ O O P _ G e t t e r _ S e t t e r _ 1 1 _ 5 _ 2 0 2 6 
  
  
