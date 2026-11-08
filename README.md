@@ -9,7 +9,7 @@ Ushbu repozitoriyada ma'lumotlar xavfsizligini ta'minlash, klas maydonlarini not
 
 ## 📁 Kodlar Ro'yxati va Masala Shartlari
 
-### 📄 src/Address2.java: Manzil klassi
+### 📄 Address2.java: Manzil klassi
 Mijozning yashash yoki etkazib berish manzili (mamlakat, shahar, ko'cha) ma'lumotlarini saqlaydi.
 ```java
 public class Address2 {
@@ -34,7 +34,7 @@ public class Address2 {
 }
 ```
 
-### 📄 src/Customer.java: Mijoz profili klassi
+### 📄 Customer.java: Mijoz profili klassi
 Tizim foydalanuvchisi ma'lumotlarini (ism, login, parol va `Address2` obyekti) xavfsiz inkapsulyatsiya qiladi.
 ```java
 public class Customer {
@@ -64,7 +64,7 @@ public class Customer {
 }
 ```
 
-### 📄 src/Product2.java: Mahsulot klassi
+### 📄 Product2.java: Mahsulot klassi
 Mahsulot nomi, narxi va ombordagi sonini boshqaradi. Narx va son manfiy bo'lmasligi validatsiya qilingan.
 ```java
 public class Product2 {
@@ -101,7 +101,7 @@ public class Product2 {
 }
 ```
 
-### 📄 src/PaymetCard2.java: To'lov kartasi klassi
+### 📄 PaymetCard2.java: To'lov kartasi klassi
 Karta raqami, amal qilish muddati va balans xavfsizligini ta'minlaydi. Pul yechish va solish amallari tekshiriladi.
 ```java
 public class PaymetCard2 {
@@ -135,7 +135,7 @@ public class PaymetCard2 {
 }
 ```
 
-### 📄 src/Order.java: Buyurtma klassi
+### 📄 Order.java: Buyurtma klassi
 Mijoz (`Customer`) va sotib olinayotgan mahsulot (`Product2`) zanjirini hamda buyurtma holatini bog'laydi.
 ```java
 public class Order {
@@ -160,7 +160,7 @@ public class Order {
 }
 ```
 
-### 📄 src/Transaction.java: Tranzaksiya klassi
+### 📄 Transaction.java: Tranzaksiya klassi
 Pul o'tkazmalari ID raqami, summasi va turi (Kirim/Chiqim) hisobini xavfsiz yuritadi.
 ```java
 public class Transaction {
@@ -180,7 +180,7 @@ public class Transaction {
 }
 ```
 
-### 📄 src/FinanceTracker.java: Moliya trekeri klassi
+### 📄 FinanceTracker.java: Moliya trekeri klassi
 Foydalanuvchining umumiy balansi, umumiy daromad (income) va xarajatlarini (expense) hisoblab boradi.
 ```java
 public class FinanceTracker {
@@ -212,7 +212,7 @@ public class FinanceTracker {
 }
 ```
 
-### 📄 src/Main.java: Dasturni ishga tushirish
+### 📄 Main.java: Dasturni ishga tushirish
 Yuqoridagi barcha klasslar obyektlarini yaratib, ularning Setter-Getter metodlarini test qiladi.
 ```java
 public class Main {
